@@ -1,0 +1,383 @@
+
+/* GENERAL SETTING */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body { 
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+
+/* HEADER */
+
+header { 
+height: 100vh;
+display: flex;
+    justify-content: flex-start;
+    align-items: center;
+min-height: 120px;
+background-image:linear-gradient(rgba(0,255,0,0.2), rgba(0,0,0,0.6)), url(resources/headerPhoto.jpg);
+background-size: cover;
+background-position: center;
+}
+
+#greeting {
+    background-color: rgba(0,0,0,0.4);
+    padding: 29px;
+    border-bottom-right-radius: 50px;
+}
+
+
+.hiddenNav{
+    display: none;
+}
+
+.hiddenNav ul {
+    margin-top: 22px;
+    list-style: none;
+    background-color: rgba(0,0,0,0.1);
+    display: inline-block;
+    padding: 6px;
+    
+}
+
+.hiddenNav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 68%;
+    transition: color 1s;
+}
+
+.hiddenNav ul li a:hover{
+     color: #007600;
+}
+
+
+/* MAIN HEADER TEXTS */ 
+
+h1 {
+    font-size: 500%;
+    font-weight: 100;
+    color: white;
+}
+
+h2 { 
+    font-weight: 300;
+    font-size: 125%;
+    text-align: right;
+    color: white;
+}
+
+
+
+
+
+/* HEADER NAVIGATION */
+
+.mainNav {
+    margin-top: auto;
+    margin-bottom: 25px;
+    margin-left: auto;
+}
+
+.mainNav ul{
+    list-style: none;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.mainNav ul li{
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 15px;
+}
+
+.mainNav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 125%;
+    transition: color 1s;
+}
+
+.mainNav ul li a:hover{
+    
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #007600;
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+
+
+
+/* FIRST SECTION */
+#firstSection {
+    height: auto;
+    background-color: rgba(248, 248, 248, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow:hidden;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+#firstSection p {
+    letter-spacing: 1px;
+    line-height: 200%;
+    
+}
+
+.icofont-line-block-right{
+    font-size: 110%;
+    color: #007600;
+}
+
+.headerLine {
+    width: 50%;
+    transform: translateX(50%);
+}
+
+
+
+.methodHeader {
+    margin-top: 20px;
+    font-size: 155%;;
+    text-align: center;
+    color: #007600;
+    padding-bottom: 15px;
+}
+
+.icofont-tick-boxed{
+    color: #007600; 
+    font-size: 154%;
+}
+
+
+
+#methodDiv { 
+margin-top: 1%;
+margin-bottom: 15px;}
+
+
+
+/* SECOND SECTION */
+
+#secondSection {
+    padding-top: 50px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+figure{
+    display: flex;
+    align-items: center;
+    width: 81%;
+}
+.figImage{
+    flex-basis: 10%;
+    align-self: flex-start;
+}
+.figText{
+    flex-basis: 90%;
+    padding: 30px;
+}
+
+
+
+img{
+    width: 200px;
+    height: auto;
+    border-radius: 25px;
+    
+}
+
+.secondHeader {
+    text-align: center;
+    font-size: 230%;
+    font-weight: 100;
+    color: #007600;
+    padding-bottom: 35px;
+}
+
+
+
+
+/* AVAILABLE DOWNLOADS */
+
+.downloads{
+    padding:5px;
+    text-align: center;
+    font-size: 110%;
+    background-color: #e2e2e2;
+    margin-top: 75px;
+}
+
+.icofont-brand-apple{
+    font-size: 128%;
+    padding-right: 6px;
+    margin-right: 10px;
+    border-right: 1px solid black;
+}
+.icofont-brand-microsoft{
+    font-size:102%;
+}
+
+
+
+/* SCIENTISTS PHOTO GALLERY */ 
+
+.scientistGallery { 
+display: flex;
+    flex-wrap: wrap;
+    background-color: #090029;
+    overflow: hidden;
+}
+
+.scientist { 
+opacity: 0.7;
+border-radius: 0;
+height: 300px;
+flex-basis: 25%;
+object-fit: cover;
+object-position: 100% 1%;
+transition: all 1s;
+}
+
+.scientist:hover{
+    opacity: 1;
+    transform: scale(0.98);
+}
+
+
+
+
+/* CONTACT US */
+
+.contact{
+    height: 210px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contactText {
+    text-decoration: none;
+    font-size: 110%;
+    color: black;
+    padding: 35px;
+    border: 1px solid #007600;
+}
+
+.contactText:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    transition: all 1s;
+}
+
+.contactText:hover .noteworthy {
+    background-color: white;
+    color: black;
+}
+
+.noteworthy {
+    padding: 3px;
+    background-color: #007600;
+    color: white;
+    transition: all 1s;
+}
+
+
+
+
+/* FOOTER */
+
+footer{
+    margin-top: 56px;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #000000;
+}
+
+footer ul {
+    padding-right: 15px;
+}
+
+footer ul li{
+    padding-right: 3px;
+    display: inline-block;
+    font-size: 120%;
+}
+
+
+.brandfonts{
+    color: #717698;
+    transition: background-color 1s;
+    transition: padding 0.2s;
+}
+
+.brandfonts:hover{
+    color: white;
+    padding: 8px;
+    border-radius: 11px;
+}
+
+.icofont-twitter:hover{
+    background-color: #1DA1F2;
+}
+
+.icofont-facebook:hover{
+    background-color: #4267B2;
+}
+
+.icofont-instagram:hover{
+    background-color: #E1306C;
+}
+
+.icofont-vk:hover{
+    background-color: #4c75a3;
+}
+
+.footerMenu{
+   margin-right: auto;
+    padding-left: 15px;
+}
+
+.footerMenu a {
+    color: white;
+    text-decoration: none;
+    font-size: 85%;
+    margin-right: 25px;
+    transition: all 1s;
+}
+
+.copyrightText { 
+color: white;
+
+}
+
+.footerMenu a:hover{
+     border-top: 1px solid white;
+    color: #27b227;
+}
