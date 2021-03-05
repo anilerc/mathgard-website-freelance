@@ -3,4 +3,4 @@ A responsive website for a math-learning app called "Mathgard". First ever freel
 
 External tools/resources such as Icofont, Animate.css and AOS.css are used.
 
-Finally, Mailchimp is used as an e-mail collector service, for the customers who would like to learn more about the app.
+Finally, Mailchimp is used as an e-mail collector/contact provider service.
