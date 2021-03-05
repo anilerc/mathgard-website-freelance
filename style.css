@@ -1,13 +1,12 @@
-
 /* GENERAL SETTING */
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
-body { 
+body {
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
 }
@@ -18,37 +17,38 @@ body {
 
 
 
+
 /* HEADER */
 
-header { 
-height: 100vh;
-display: flex;
+header {
+    height: 100vh;
+    display: flex;
     justify-content: flex-start;
     align-items: center;
-min-height: 120px;
-background-image:linear-gradient(rgba(0,255,0,0.2), rgba(0,0,0,0.6)), url(resources/headerPhoto.jpg);
-background-size: cover;
-background-position: center;
+    min-height: 120px;
+    background-image: linear-gradient(rgba(0, 255, 0, 0.2), rgba(0, 0, 0, 0.6)), url(resources/headerPhoto.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 #greeting {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 29px;
     border-bottom-right-radius: 50px;
 }
 
 
-.hiddenNav{
+.hiddenNav {
     display: none;
 }
 
 .hiddenNav ul {
     margin-top: 22px;
     list-style: none;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     display: inline-block;
     padding: 6px;
-    
+
 }
 
 .hiddenNav ul li a {
@@ -58,12 +58,12 @@ background-position: center;
     transition: color 1s;
 }
 
-.hiddenNav ul li a:hover{
-     color: #007600;
+.hiddenNav ul li a:hover {
+    color: #007600;
 }
 
 
-/* MAIN HEADER TEXTS */ 
+/* MAIN HEADER TEXTS */
 
 h1 {
     font-size: 500%;
@@ -71,7 +71,7 @@ h1 {
     color: white;
 }
 
-h2 { 
+h2 {
     font-weight: 300;
     font-size: 125%;
     text-align: right;
@@ -90,12 +90,12 @@ h2 {
     margin-left: auto;
 }
 
-.mainNav ul{
+.mainNav ul {
     list-style: none;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
-.mainNav ul li{
+.mainNav ul li {
     display: inline-block;
     padding-right: 25px;
     padding-left: 15px;
@@ -108,8 +108,8 @@ h2 {
     transition: color 1s;
 }
 
-.mainNav ul li a:hover{
-    
+.mainNav ul li a:hover {
+
     padding-bottom: 10px;
     padding-top: 10px;
     color: #007600;
@@ -128,19 +128,19 @@ h2 {
     justify-content: center;
     align-items: center;
     position: relative;
-    overflow:hidden;
+    overflow: hidden;
     padding-top: 15px;
     padding-bottom: 15px;
-    
+
 }
 
 #firstSection p {
     letter-spacing: 1px;
     line-height: 200%;
-    
+
 }
 
-.icofont-line-block-right{
+.icofont-line-block-right {
     font-size: 110%;
     color: #007600;
 }
@@ -154,22 +154,24 @@ h2 {
 
 .methodHeader {
     margin-top: 20px;
-    font-size: 155%;;
+    font-size: 155%;
+    ;
     text-align: center;
     color: #007600;
     padding-bottom: 15px;
 }
 
-.icofont-tick-boxed{
-    color: #007600; 
+.icofont-tick-boxed {
+    color: #007600;
     font-size: 154%;
 }
 
 
 
-#methodDiv { 
-margin-top: 1%;
-margin-bottom: 15px;}
+#methodDiv {
+    margin-top: 1%;
+    margin-bottom: 15px;
+}
 
 
 
@@ -183,27 +185,30 @@ margin-bottom: 15px;}
     justify-content: center;
     align-items: center;
 }
-figure{
+
+figure {
     display: flex;
     align-items: center;
     width: 81%;
 }
-.figImage{
+
+.figImage {
     flex-basis: 10%;
     align-self: flex-start;
 }
-.figText{
+
+.figText {
     flex-basis: 90%;
     padding: 30px;
 }
 
 
 
-img{
+img {
     width: 200px;
     height: auto;
     border-radius: 25px;
-    
+
 }
 
 .secondHeader {
@@ -219,46 +224,47 @@ img{
 
 /* AVAILABLE DOWNLOADS */
 
-.downloads{
-    padding:5px;
+.downloads {
+    padding: 5px;
     text-align: center;
     font-size: 110%;
     background-color: #e2e2e2;
     margin-top: 75px;
 }
 
-.icofont-brand-apple{
+.icofont-brand-apple {
     font-size: 128%;
     padding-right: 6px;
     margin-right: 10px;
     border-right: 1px solid black;
 }
-.icofont-brand-microsoft{
-    font-size:102%;
+
+.icofont-brand-microsoft {
+    font-size: 102%;
 }
 
 
 
-/* SCIENTISTS PHOTO GALLERY */ 
+/* SCIENTISTS PHOTO GALLERY */
 
-.scientistGallery { 
-display: flex;
+.scientistGallery {
+    display: flex;
     flex-wrap: wrap;
     background-color: #090029;
     overflow: hidden;
 }
 
-.scientist { 
-opacity: 0.7;
-border-radius: 0;
-height: 300px;
-flex-basis: 25%;
-object-fit: cover;
-object-position: 100% 1%;
-transition: all 1s;
+.scientist {
+    opacity: 0.7;
+    border-radius: 0;
+    height: 300px;
+    flex-basis: 25%;
+    object-fit: cover;
+    object-position: 100% 1%;
+    transition: all 1s;
 }
 
-.scientist:hover{
+.scientist:hover {
     opacity: 1;
     transform: scale(0.98);
 }
@@ -268,7 +274,7 @@ transition: all 1s;
 
 /* CONTACT US */
 
-.contact{
+.contact {
     height: 210px;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -310,7 +316,7 @@ transition: all 1s;
 
 /* FOOTER */
 
-footer{
+footer {
     margin-top: 56px;
     height: 45px;
     width: 100%;
@@ -324,43 +330,43 @@ footer ul {
     padding-right: 15px;
 }
 
-footer ul li{
+footer ul li {
     padding-right: 3px;
     display: inline-block;
     font-size: 120%;
 }
 
 
-.brandfonts{
+.brandfonts {
     color: #717698;
     transition: background-color 1s;
     transition: padding 0.2s;
 }
 
-.brandfonts:hover{
+.brandfonts:hover {
     color: white;
     padding: 8px;
     border-radius: 11px;
 }
 
-.icofont-twitter:hover{
+.icofont-twitter:hover {
     background-color: #1DA1F2;
 }
 
-.icofont-facebook:hover{
+.icofont-facebook:hover {
     background-color: #4267B2;
 }
 
-.icofont-instagram:hover{
+.icofont-instagram:hover {
     background-color: #E1306C;
 }
 
-.icofont-vk:hover{
+.icofont-vk:hover {
     background-color: #4c75a3;
 }
 
-.footerMenu{
-   margin-right: auto;
+.footerMenu {
+    margin-right: auto;
     padding-left: 15px;
 }
 
@@ -372,12 +378,12 @@ footer ul li{
     transition: all 1s;
 }
 
-.copyrightText { 
-color: white;
+.copyrightText {
+    color: white;
 
 }
 
-.footerMenu a:hover{
-     border-top: 1px solid white;
+.footerMenu a:hover {
+    border-top: 1px solid white;
     color: #27b227;
 }
